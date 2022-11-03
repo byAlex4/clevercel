@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
-import { Outlet } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 
 function NavScrollExample() {
   return (
@@ -22,25 +22,24 @@ function NavScrollExample() {
             <Navbar.Toggle aria-controls="navbarScroll" />
             <Navbar.Collapse id="navbarScroll">
               <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll>
-                <Nav.Link href="http://localhost/example-app/public/">Inicio</Nav.Link>
-                <Nav.Link href="#">iPhone</Nav.Link>
-                <Nav.Link href="#">Promos del Mes</Nav.Link>
-                <Nav.Link href="#">Metodos de pago</Nav.Link>
-                <NavDropdown title="¿Necesitas ayuda?" id="navbarScrollingDropdown">
-                  <NavDropdown.Item href="#action3">Preguntas frecuentes</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">Proceso de compra</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">Envio</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">Garantia</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">Estado de los equipos</NavDropdown.Item>
-                  <NavDropdown.Item href="#action4">Terminos y condiciones</NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action5">Servicio al cliente</NavDropdown.Item>
-                </NavDropdown>
+                <Nav.Link as={Link} to='/example-app/public/productos'>iPhone</Nav.Link>
+                <Nav.Link as={Link} to='/example-app/public/promos'>Promos del Mes</Nav.Link>
+                <Nav.Link as={Link} to='/example-app/public/metodo'>Metodos de pago</Nav.Link>
+                <Nav.Link as={Link} to='/example-app/public/centro'>¿Necesitas ayuda?</Nav.Link>
               </Nav>
               <Form className="d-flex">
                 <Form.Control type="search" placeholder="Busqueda" className="me-2" aria-label="Busqueda" />
-                <Button variant="outline-success">Buscar</Button>
               </Form>
+              <Link to='login'>
+                <img 
+                src="https://banner2.cleanpng.com/20180622/tqt/kisspng-computer-icons-user-clip-art-consignee-5b2d25107181a2.1674732415296852644649.jpg" 
+                style={{ maxHeight: '35px' }}/>
+              </Link>
+              <a href="">
+                <img 
+                src="https://cdn-icons-png.flaticon.com/512/263/263142.png" 
+                style={{ maxHeight: '35px' }}/>
+              </a>
             </Navbar.Collapse>
           </Container>
         </Navbar>

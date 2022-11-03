@@ -6,6 +6,7 @@ import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import {Link} from 'react-router-dom';
 
 function Main() {
   return (
@@ -14,36 +15,38 @@ function Main() {
         <div>
           <Carousel>
             <Carousel.Item interval={1500}>
-              <a href=""><img
+              <Link to='/example-app/public/iphone13'>
+              <img
+                className="d-block w-100"
+                src="https://cdn.shopify.com/s/files/1/0325/8708/8005/files/BannerSitio_MX_iPhoneXr_Horizontal.png?v=1662173234&width=3000"
+                alt="First slide"
+                style={{ maxWidth: 'auto' }}
+              />
+              </Link>
+            </Carousel.Item>
+            <Carousel.Item interval={1500}>
+              <Link to='/example-app/public/metodo'><img
                 className="d-block w-100"
                 src="http://cdn.shopify.com/s/files/1/0325/8708/8005/files/Banner_Horizontal_Mercado_Pago.png?v=1662586134&width=3000"
                 alt="First slide"
                 style={{ maxWidth: 'auto' }}
-              /></a>
+              /></Link>
             </Carousel.Item>
             <Carousel.Item interval={1500}>
-              <a href=""><img
-                className="d-block w-100"
-                src="http://cdn.shopify.com/s/files/1/0325/8708/8005/files/Banner_Horizontal_Mercado_Pago.png?v=1662586134&width=3000"
-                alt="First slide"
-                style={{ maxWidth: 'auto' }}
-              /></a>
-            </Carousel.Item>
-            <Carousel.Item interval={1500}>
-              <a href=""><img
+              <Link to='/example-app/public/metodo'><img
                 className="d-block w-100"
                 src="//cdn.shopify.com/s/files/1/0325/8708/8005/files/BannerSitio_MX_Zip1_Horizontal.png?v=1662173234&width=3000"
                 alt="Second slide"
                 style={{ maxWidth: 'auto' }}
-              /></a>
+              /></Link>
             </Carousel.Item>
             <Carousel.Item interval={1500}>
-              <a href=""><img
+              <Link to='/example-app/public/metodo'><img
                 className="d-block w-100"
                 src="https://cdn.shopify.com/s/files/1/0325/8708/8005/files/BannerSitio_MX_Kueski1_Horizontal.png?v=1662173234&width=3000"
                 alt="Third slide"
                 style={{ maxWidth: 'auto' }}
-              /></a>
+              /></Link>
             </Carousel.Item>
           </Carousel>
         </div>
@@ -59,44 +62,47 @@ function Main() {
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 13 Pro Max</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $23,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link>
+                          </Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_02c37f1e-e046-4e3a-8a78-cc26097c62cc_478x.jpg?v=1665803705" style={{ maxHeight: '300px' }} />
+                          <Link to='iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_02c37f1e-e046-4e3a-8a78-cc26097c62cc_478x.jpg?v=1665803705" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 13 Pro</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $20,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link>
+                          </Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-01_453x.jpg?v=1665803691" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-01_453x.jpg?v=1665803691" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 13</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $17,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link>
+                          </Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-mini-01_457x.jpg?v=1665803695" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-mini-01_457x.jpg?v=1665803695" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 13 Mini</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $14,490</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
@@ -107,44 +113,44 @@ function Main() {
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-mini-01_457x.jpg?v=1665803695" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-mini-01_457x.jpg?v=1665803695" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 12 Pro Max</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $18,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-r1_1_477x.jpg?v=1636126435" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-r1_1_477x.jpg?v=1636126435" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 12 Pro</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $14,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-r1_1_477x.jpg?v=1636126435" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-r1_1_477x.jpg?v=1636126435" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 12</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $12,490</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-mini-r1_1_477x.jpg?v=1637180895" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-mini-r1_1_477x.jpg?v=1637180895" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 12 Mini</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $10,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
@@ -155,33 +161,33 @@ function Main() {
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-mini-r1_1_477x.jpg?v=1637180895" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-12-mini-r1_1_477x.jpg?v=1637180895" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 11 Pro Max</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $12,490</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 11 Pro</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $10,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone 11</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $10,990</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
@@ -192,44 +198,44 @@ function Main() {
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone XS Max</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $7,490</Card.Subtitle>
                             <Card.Text>Agotado.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-pro-10_700x.png?v=1621288402" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone XS</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $7,090</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/Apple_Iphone_XR_700x.png?v=1621288380" style={{ maxHeight: '300px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/Apple_Iphone_XR_700x.png?v=1621288380" style={{ maxHeight: '300px' }} />
                             <Card.Title>iPhone XR</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $6,190</Card.Subtitle>
                             <Card.Text>En stock.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
                     <div className="bg-light border">
                       <Card style={{ width: '18rem' }}>
                         <Card.Body>
-                          <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/iphone-x_700x.png?v=1621288396" style={{ maxHeight: '250px' }} />
+                          <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/iphone-x_700x.png?v=1621288396" style={{ maxHeight: '250px' }} />
                             <Card.Title>iPhone X</Card.Title>
                             <Card.Subtitle className="mb-2 text-muted">Desde $5,990</Card.Subtitle>
                             <Card.Text>Agotado.</Card.Text>
-                            <Card.Link href="#">Ver más</Card.Link></a>
+                            <Card.Link href="#">Ver más</Card.Link></Link>
                         </Card.Body>
                       </Card>
                     </div>
@@ -242,7 +248,7 @@ function Main() {
 
           <div align="center" className='productos'>
             <br />
-            <Button variant="outline-primary" size="lg">
+            <Button variant="outline-primary" size="lg" as={Link} to='/example-app/public/productos'>
               Ver todos
             </Button>
           </div>

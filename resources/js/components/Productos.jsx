@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Accordion from 'react-bootstrap/Accordion';
 import Form from 'react-bootstrap/Form';
+import {Link} from 'react-router-dom';
 
 function Productos() {
     return (
@@ -98,21 +99,21 @@ function Productos() {
                             <Col style={{ marginLeft: "10px", }} align="center">
                                 <Card style={{ width: 'auto' }}>
                                     <Card.Body>
-                                        <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
+                                        <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
                                             <Card.Title>iPhone 13 Pro Max</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Desde $23,990</Card.Subtitle>
                                             <Card.Text>En stock.</Card.Text>
-                                            <Card.Link href="#">Ver más</Card.Link></a>
+                                            <Card.Link href="#">Ver más</Card.Link></Link>
                                     </Card.Body>
                                 </Card>
                                 <br />
                                 <Card style={{ width: 'auto' }}>
                                     <Card.Body>
-                                        <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
+                                    <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
                                             <Card.Title>iPhone 13 Pro Max</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Desde $23,990</Card.Subtitle>
                                             <Card.Text>En stock.</Card.Text>
-                                            <Card.Link href="#">Ver más</Card.Link></a>
+                                            <Card.Link href="#">Ver más</Card.Link></Link>
                                     </Card.Body>
                                 </Card>
                                 <br />
@@ -120,21 +121,21 @@ function Productos() {
                             <Col align="center">
                                 <Card style={{ width: 'auto' }}>
                                     <Card.Body>
-                                        <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
+                                    <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
                                             <Card.Title>iPhone 13 Pro Max</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Desde $23,990</Card.Subtitle>
                                             <Card.Text>En stock.</Card.Text>
-                                            <Card.Link href="#">Ver más</Card.Link></a>
+                                            <Card.Link href="#">Ver más</Card.Link></Link>
                                     </Card.Body>
                                 </Card>
                                 <br />
                                 <Card style={{ width: 'auto' }}>
                                     <Card.Body>
-                                        <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
+                                    <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
                                             <Card.Title>iPhone 13 Pro Max</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Desde $23,990</Card.Subtitle>
                                             <Card.Text>En stock.</Card.Text>
-                                            <Card.Link href="#">Ver más</Card.Link></a>
+                                            <Card.Link href="#">Ver más</Card.Link></Link>
                                     </Card.Body>
                                 </Card>
                                 <br />
@@ -143,21 +144,21 @@ function Productos() {
                             <Col align="center">
                                 <Card style={{ width: 'auto' }}>
                                     <Card.Body>
-                                        <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
+                                    <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
                                             <Card.Title>iPhone 13 Pro Max</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Desde $23,990</Card.Subtitle>
                                             <Card.Text>En stock.</Card.Text>
-                                            <Card.Link href="#">Ver más</Card.Link></a>
+                                            <Card.Link href="#">Ver más</Card.Link></Link>
                                     </Card.Body>
                                 </Card>
                                 <br />
                                 <Card style={{ width: 'auto' }}>
                                     <Card.Body>
-                                        <a href=""><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
+                                    <Link to='/example-app/public/iphone13'><img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" style={{ maxHeight: '350px' }} />
                                             <Card.Title>iPhone 13 Pro Max</Card.Title>
                                             <Card.Subtitle className="mb-2 text-muted">Desde $23,990</Card.Subtitle>
                                             <Card.Text>En stock.</Card.Text>
-                                            <Card.Link href="#">Ver más</Card.Link></a>
+                                            <Card.Link href="#">Ver más</Card.Link></Link>
                                     </Card.Body>
                                 </Card>
                                 <br />
