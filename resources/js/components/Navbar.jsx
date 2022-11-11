@@ -1,9 +1,7 @@
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { Outlet, Link } from 'react-router-dom';
@@ -35,11 +33,12 @@ function NavScrollExample() {
                 src="https://banner2.cleanpng.com/20180622/tqt/kisspng-computer-icons-user-clip-art-consignee-5b2d25107181a2.1674732415296852644649.jpg" 
                 style={{ maxHeight: '35px' }}/>
               </Link>
-              <a href="">
+              
+              <Link to='carro'>
                 <img 
                 src="https://cdn-icons-png.flaticon.com/512/263/263142.png" 
                 style={{ maxHeight: '35px' }}/>
-              </a>
+              </Link>
             </Navbar.Collapse>
           </Container>
         </Navbar>

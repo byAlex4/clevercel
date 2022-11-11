@@ -9,12 +9,17 @@ function Producto1() {
         <> <br />
             <body style={{ maxWidth: '95%', marginLeft: ' 10%', marginRight: ' 10%' }} >
                 <Row>
-                    <Col>
+                    <Col style={{marginTop: '5%'}}>
                         <img src="https://cdn.shopify.com/s/files/1/0325/8708/8005/products/apple-iphone-13-pro-max-01_478x.jpg?v=1665803700" />
                     </Col>
                     <Col>
                         <h1>iPhone 13 Pro Max</h1>
-                        <h3>$22,990</h3> <h4 disable>$25,490</h4>
+                        <table>
+                            <tr>
+                                <td><h4>$22,990</h4></td>
+                                <td><strike>$25,490</strike></td>
+                            </tr>
+                        </table>
                         <p>Impuesto incluido. Gastos de envío calculados en la compra </p>
                         <hr />
 
